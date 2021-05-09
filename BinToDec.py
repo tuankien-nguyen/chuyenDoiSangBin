@@ -1,11 +1,10 @@
-ip = int(input("Nhap vao so he thap phan: "))
+from tkinter import *
+import tkinter
 
-def BinToDec(strBin):
-	return int(strBin)
+window = Tk()
+window.title("Chuyen doi tu Decimal sang Binary")
 
+lb = Label(window, text="hello word", fg = "red")
+lb.grid(column =0, row = 0)
 
-def DecToBin(strDec):
-	return bin(strDec)
-
-
-print(DecToBin(ip))
+window.mainloop()
